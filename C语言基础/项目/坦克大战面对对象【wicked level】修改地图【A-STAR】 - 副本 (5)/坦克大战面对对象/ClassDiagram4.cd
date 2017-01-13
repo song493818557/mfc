@@ -1,0 +1,123 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="Cgame" Collapsed="true">
+    <Position X="5.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>BAAAAIACQAAQAAAAAECAAACAAACAIAEASBDAAAAAAsA=</HashCode>
+      <FileName>Cgame.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Cmenu" Collapsed="true">
+    <Position X="10" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAEABAAAgAAEEgCAAAAAAAAAQAAEAEEAAQAAQgAAAA=</HashCode>
+      <FileName>menu.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Ceditmap" Collapsed="true">
+    <Position X="5.5" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAgAAIAAAAAEAAAAgABABAAQQAUAAEABAARAICAIAA=</HashCode>
+      <FileName>Ceditmap.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Cmap" Collapsed="true">
+    <Position X="4.5" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAEAIgEEAAAAAIBAAAgCAgACAAAIEQACABAAA=</HashCode>
+      <FileName>map.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Calltank" Collapsed="true">
+    <Position X="4.5" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>EAAAAgEQQABACAAhABARAEAQQAAABAABIQEAIBACAAA=</HashCode>
+      <FileName>Calltank.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Cmytank" Collapsed="true">
+    <Position X="3.25" Y="6.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAIAEAAAAAAAIAAAAACAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Calltank.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CenemyTank" Collapsed="true">
+    <Position X="5.5" Y="6.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAhAAAQAAAAAAAAAAAAACAAAEAAAAAAAAAAAAABgA=</HashCode>
+      <FileName>Calltank.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Cball" Collapsed="true">
+    <Position X="7.75" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>BABAAACAAAAAAAYAAAAgQAAAgAAAEAAAAEAAAAAAAQA=</HashCode>
+      <FileName>Cball.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Castar" Collapsed="true">
+    <Position X="1" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ACAAACAEAAAAAAAAAICAgAIgAAABQAAhAAAAAAAABAA=</HashCode>
+      <FileName>AASART.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Cbuff" Collapsed="true">
+    <Position X="3.25" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAACCAAmAAIAAAQgACBgAAAAAAAICAAAAAABAAAAAAA=</HashCode>
+      <FileName>Cbuff.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Struct Name="position" Collapsed="true">
+    <Position X="12.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABgAAAAAAA=</HashCode>
+      <FileName>menu.h</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="_position" Collapsed="true">
+    <Position X="4.5" Y="9.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAEAAQAAAAAAAAAAAAAAIAAAAAAAA=</HashCode>
+      <FileName>map.h</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="_strstar" Collapsed="true">
+    <Position X="0.5" Y="9.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAABAAEAAEAAAAAAAAAAAAAAAAAAAAgAAAIAA=</HashCode>
+      <FileName>map.h</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Typedef Name="POSTION" Collapsed="true">
+    <Position X="4.5" Y="11.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>map.h</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="STRSTAR" Collapsed="true">
+    <Position X="0.5" Y="7.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>map.h</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Enum Name="BUFF_NAME" Collapsed="true">
+    <Position X="14.25" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAIIAAAAAAAAo=</HashCode>
+      <FileName>Data.h</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="__unnamed_enum_0010_1" Collapsed="true">
+    <Position X="12.5" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAQAAAAAAAAAAAAAAAAAEAAEAAAAAAAIAAAAAAA=</HashCode>
+      <FileName>map.h</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Font Name="Microsoft YaHei UI" Size="9" />
+</ClassDiagram>

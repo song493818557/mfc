@@ -1,0 +1,58 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.40629.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "基础_04", "基础_04\基础_04.vcxproj", "{4D9129FD-B5F2-4C54-958D-CDF240EE58B9}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "01_宏", "01_宏\01_宏.vcxproj", "{2B3EA5B7-518C-47CD-8BAA-23CA7A7D4F96}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "02_条件编译", "02_条件编译\02_条件编译.vcxproj", "{A57DAD67-4E2F-4731-860D-C4C4208D582E}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "03_指针", "03_指针\03_指针.vcxproj", "{98CBECD6-BA36-439C-B656-A4862C095134}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "04_结构体", "04_结构体\04_结构体.vcxproj", "{CFA6F9D9-AB0E-4073-A099-F0CA2CBB7B25}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "05 联合体", "05 联合体\05 联合体.vcxproj", "{CDDB059E-E0E2-455D-BEA2-2DA2C75311B4}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "06 枚举", "06 枚举\06 枚举.vcxproj", "{5BE21975-8C9C-4631-85C6-88D002439093}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Win32 = Debug|Win32
+		Release|Win32 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{4D9129FD-B5F2-4C54-958D-CDF240EE58B9}.Debug|Win32.ActiveCfg = Debug|Win32
+		{4D9129FD-B5F2-4C54-958D-CDF240EE58B9}.Debug|Win32.Build.0 = Debug|Win32
+		{4D9129FD-B5F2-4C54-958D-CDF240EE58B9}.Release|Win32.ActiveCfg = Release|Win32
+		{4D9129FD-B5F2-4C54-958D-CDF240EE58B9}.Release|Win32.Build.0 = Release|Win32
+		{2B3EA5B7-518C-47CD-8BAA-23CA7A7D4F96}.Debug|Win32.ActiveCfg = Debug|Win32
+		{2B3EA5B7-518C-47CD-8BAA-23CA7A7D4F96}.Debug|Win32.Build.0 = Debug|Win32
+		{2B3EA5B7-518C-47CD-8BAA-23CA7A7D4F96}.Release|Win32.ActiveCfg = Release|Win32
+		{2B3EA5B7-518C-47CD-8BAA-23CA7A7D4F96}.Release|Win32.Build.0 = Release|Win32
+		{A57DAD67-4E2F-4731-860D-C4C4208D582E}.Debug|Win32.ActiveCfg = Debug|Win32
+		{A57DAD67-4E2F-4731-860D-C4C4208D582E}.Debug|Win32.Build.0 = Debug|Win32
+		{A57DAD67-4E2F-4731-860D-C4C4208D582E}.Release|Win32.ActiveCfg = Release|Win32
+		{A57DAD67-4E2F-4731-860D-C4C4208D582E}.Release|Win32.Build.0 = Release|Win32
+		{98CBECD6-BA36-439C-B656-A4862C095134}.Debug|Win32.ActiveCfg = Debug|Win32
+		{98CBECD6-BA36-439C-B656-A4862C095134}.Debug|Win32.Build.0 = Debug|Win32
+		{98CBECD6-BA36-439C-B656-A4862C095134}.Release|Win32.ActiveCfg = Release|Win32
+		{98CBECD6-BA36-439C-B656-A4862C095134}.Release|Win32.Build.0 = Release|Win32
+		{CFA6F9D9-AB0E-4073-A099-F0CA2CBB7B25}.Debug|Win32.ActiveCfg = Debug|Win32
+		{CFA6F9D9-AB0E-4073-A099-F0CA2CBB7B25}.Debug|Win32.Build.0 = Debug|Win32
+		{CFA6F9D9-AB0E-4073-A099-F0CA2CBB7B25}.Release|Win32.ActiveCfg = Release|Win32
+		{CFA6F9D9-AB0E-4073-A099-F0CA2CBB7B25}.Release|Win32.Build.0 = Release|Win32
+		{CDDB059E-E0E2-455D-BEA2-2DA2C75311B4}.Debug|Win32.ActiveCfg = Debug|Win32
+		{CDDB059E-E0E2-455D-BEA2-2DA2C75311B4}.Debug|Win32.Build.0 = Debug|Win32
+		{CDDB059E-E0E2-455D-BEA2-2DA2C75311B4}.Release|Win32.ActiveCfg = Release|Win32
+		{CDDB059E-E0E2-455D-BEA2-2DA2C75311B4}.Release|Win32.Build.0 = Release|Win32
+		{5BE21975-8C9C-4631-85C6-88D002439093}.Debug|Win32.ActiveCfg = Debug|Win32
+		{5BE21975-8C9C-4631-85C6-88D002439093}.Debug|Win32.Build.0 = Debug|Win32
+		{5BE21975-8C9C-4631-85C6-88D002439093}.Release|Win32.ActiveCfg = Release|Win32
+		{5BE21975-8C9C-4631-85C6-88D002439093}.Release|Win32.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

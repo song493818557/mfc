@@ -1,0 +1,121 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="源文件">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="头文件">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="资源文件">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="源文件\1游戏">
+      <UniqueIdentifier>{4e936a0f-242d-4758-9a05-8241b0721b06}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\2菜单">
+      <UniqueIdentifier>{efba7e8c-a1e1-4304-9c18-7b8815edd6cf}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\3地图编辑器">
+      <UniqueIdentifier>{c9eedffc-5c29-4a0a-b64e-fd028348663a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\3游戏">
+      <UniqueIdentifier>{cc174c00-8807-4618-976a-c9d10ae32f58}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\5坦克">
+      <UniqueIdentifier>{6b775fb4-147e-45cb-814a-ae2039868c53}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\4子弹">
+      <UniqueIdentifier>{7d0461c5-0b5a-4a06-8d0b-b04bd69a9b79}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\4ASTAR">
+      <UniqueIdentifier>{1983bc39-666f-4840-a693-6cfcc058e02d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\4buff">
+      <UniqueIdentifier>{f9ab9238-c0d9-4ea3-b084-21620ca7f363}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="ReadMe.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="stdafx.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="targetver.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="menu.h">
+      <Filter>源文件\2菜单</Filter>
+    </ClInclude>
+    <ClInclude Include="Data.h">
+      <Filter>源文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Ceditmap.h">
+      <Filter>源文件\3地图编辑器</Filter>
+    </ClInclude>
+    <ClInclude Include="AASART.h">
+      <Filter>源文件\4ASTAR</Filter>
+    </ClInclude>
+    <ClInclude Include="Cball.h">
+      <Filter>源文件\4子弹</Filter>
+    </ClInclude>
+    <ClInclude Include="Cbuff.h">
+      <Filter>源文件\4buff</Filter>
+    </ClInclude>
+    <ClInclude Include="Cgame.h">
+      <Filter>源文件\1游戏</Filter>
+    </ClInclude>
+    <ClInclude Include="Calltank.h">
+      <Filter>源文件\5坦克</Filter>
+    </ClInclude>
+    <ClInclude Include="map.h">
+      <Filter>源文件\3游戏</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="stdafx.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="坦克大战面对对象.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="menu.cpp">
+      <Filter>源文件\2菜单</Filter>
+    </ClCompile>
+    <ClCompile Include="Data.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Ceditmap.cpp">
+      <Filter>源文件\3地图编辑器</Filter>
+    </ClCompile>
+    <ClCompile Include="AASART.cpp">
+      <Filter>源文件\4ASTAR</Filter>
+    </ClCompile>
+    <ClCompile Include="Cball.cpp">
+      <Filter>源文件\4子弹</Filter>
+    </ClCompile>
+    <ClCompile Include="Cbuff.cpp">
+      <Filter>源文件\4buff</Filter>
+    </ClCompile>
+    <ClCompile Include="Cgame.cpp">
+      <Filter>源文件\1游戏</Filter>
+    </ClCompile>
+    <ClCompile Include="map.cpp">
+      <Filter>源文件\3游戏</Filter>
+    </ClCompile>
+    <ClCompile Include="Calltank.cpp">
+      <Filter>源文件\5坦克</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="ClassDiagram.cd" />
+    <None Include="ClassDiagram1.cd" />
+    <None Include="ClassDiagram2.cd" />
+    <None Include="ClassDiagram3.cd" />
+    <None Include="ClassDiagram4.cd" />
+  </ItemGroup>
+</Project>

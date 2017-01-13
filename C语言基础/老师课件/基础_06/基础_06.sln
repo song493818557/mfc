@@ -1,0 +1,64 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.40629.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "基础_06", "基础_06\基础_06.vcxproj", "{4BB1E524-65D9-4ABE-9181-68B2F22AF7A0}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "01_文件操作", "01_文件操作\01_文件操作.vcxproj", "{5FEAF69B-3894-4C67-A992-7CD8B9EA90F6}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "02_文件操作2", "02_文件操作2\02_文件操作2.vcxproj", "{216CDD91-7491-4D19-BAB9-AD4E53564C26}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "03 文件操作3", "03 文件操作3\03 文件操作3.vcxproj", "{D7344BEC-E62A-4E71-A325-160EF080DEE9}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "04 文件读写4", "04 文件读写4\04 文件读写4.vcxproj", "{4987E7FB-6D21-4DEC-9003-D6EE619C4F60}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "电话本", "电话本\电话本.vcxproj", "{2D005BC7-C901-4CEC-81AA-EFA6DF722787}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "电话本2", "电话本2\电话本2.vcxproj", "{F5FCE3FA-202A-4351-9277-739796402F5A}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "会移动的字母", "会移动的字母\会移动的字母.vcxproj", "{8415C65A-E900-47B5-9DCC-16D8BA50F97F}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Win32 = Debug|Win32
+		Release|Win32 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{4BB1E524-65D9-4ABE-9181-68B2F22AF7A0}.Debug|Win32.ActiveCfg = Debug|Win32
+		{4BB1E524-65D9-4ABE-9181-68B2F22AF7A0}.Debug|Win32.Build.0 = Debug|Win32
+		{4BB1E524-65D9-4ABE-9181-68B2F22AF7A0}.Release|Win32.ActiveCfg = Release|Win32
+		{4BB1E524-65D9-4ABE-9181-68B2F22AF7A0}.Release|Win32.Build.0 = Release|Win32
+		{5FEAF69B-3894-4C67-A992-7CD8B9EA90F6}.Debug|Win32.ActiveCfg = Debug|Win32
+		{5FEAF69B-3894-4C67-A992-7CD8B9EA90F6}.Debug|Win32.Build.0 = Debug|Win32
+		{5FEAF69B-3894-4C67-A992-7CD8B9EA90F6}.Release|Win32.ActiveCfg = Release|Win32
+		{5FEAF69B-3894-4C67-A992-7CD8B9EA90F6}.Release|Win32.Build.0 = Release|Win32
+		{216CDD91-7491-4D19-BAB9-AD4E53564C26}.Debug|Win32.ActiveCfg = Debug|Win32
+		{216CDD91-7491-4D19-BAB9-AD4E53564C26}.Debug|Win32.Build.0 = Debug|Win32
+		{216CDD91-7491-4D19-BAB9-AD4E53564C26}.Release|Win32.ActiveCfg = Release|Win32
+		{216CDD91-7491-4D19-BAB9-AD4E53564C26}.Release|Win32.Build.0 = Release|Win32
+		{D7344BEC-E62A-4E71-A325-160EF080DEE9}.Debug|Win32.ActiveCfg = Debug|Win32
+		{D7344BEC-E62A-4E71-A325-160EF080DEE9}.Debug|Win32.Build.0 = Debug|Win32
+		{D7344BEC-E62A-4E71-A325-160EF080DEE9}.Release|Win32.ActiveCfg = Release|Win32
+		{D7344BEC-E62A-4E71-A325-160EF080DEE9}.Release|Win32.Build.0 = Release|Win32
+		{4987E7FB-6D21-4DEC-9003-D6EE619C4F60}.Debug|Win32.ActiveCfg = Debug|Win32
+		{4987E7FB-6D21-4DEC-9003-D6EE619C4F60}.Debug|Win32.Build.0 = Debug|Win32
+		{4987E7FB-6D21-4DEC-9003-D6EE619C4F60}.Release|Win32.ActiveCfg = Release|Win32
+		{4987E7FB-6D21-4DEC-9003-D6EE619C4F60}.Release|Win32.Build.0 = Release|Win32
+		{2D005BC7-C901-4CEC-81AA-EFA6DF722787}.Debug|Win32.ActiveCfg = Debug|Win32
+		{2D005BC7-C901-4CEC-81AA-EFA6DF722787}.Debug|Win32.Build.0 = Debug|Win32
+		{2D005BC7-C901-4CEC-81AA-EFA6DF722787}.Release|Win32.ActiveCfg = Release|Win32
+		{2D005BC7-C901-4CEC-81AA-EFA6DF722787}.Release|Win32.Build.0 = Release|Win32
+		{F5FCE3FA-202A-4351-9277-739796402F5A}.Debug|Win32.ActiveCfg = Debug|Win32
+		{F5FCE3FA-202A-4351-9277-739796402F5A}.Debug|Win32.Build.0 = Debug|Win32
+		{F5FCE3FA-202A-4351-9277-739796402F5A}.Release|Win32.ActiveCfg = Release|Win32
+		{F5FCE3FA-202A-4351-9277-739796402F5A}.Release|Win32.Build.0 = Release|Win32
+		{8415C65A-E900-47B5-9DCC-16D8BA50F97F}.Debug|Win32.ActiveCfg = Debug|Win32
+		{8415C65A-E900-47B5-9DCC-16D8BA50F97F}.Debug|Win32.Build.0 = Debug|Win32
+		{8415C65A-E900-47B5-9DCC-16D8BA50F97F}.Release|Win32.ActiveCfg = Release|Win32
+		{8415C65A-E900-47B5-9DCC-16D8BA50F97F}.Release|Win32.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

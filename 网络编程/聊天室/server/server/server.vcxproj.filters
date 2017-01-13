@@ -1,0 +1,129 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="源文件">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="头文件">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="资源文件">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="源文件\菜单">
+      <UniqueIdentifier>{9eaed1e4-048c-404c-b97c-77ee0b92dfe4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\MYSQL">
+      <UniqueIdentifier>{6672dc63-63e4-4d39-bf44-7b23d0579e2f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\tcp">
+      <UniqueIdentifier>{a0df73a5-0d87-4ee3-a9ba-c5e835d4d37c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\base64">
+      <UniqueIdentifier>{a38244d4-8bea-4e7a-aca5-78c7e8e91d3f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\tcp\1reg">
+      <UniqueIdentifier>{b5e21fae-8853-44b6-9870-0bf1b7b45332}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\tcp\2login">
+      <UniqueIdentifier>{0cb73110-f687-4030-94c8-8272ad0b0a49}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\tcp\3chat">
+      <UniqueIdentifier>{7ec86c48-18b6-4d6b-9635-b3e561690ab7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\tcp\4file">
+      <UniqueIdentifier>{6bd9d1e8-1a24-4ffa-a9d6-d72544290520}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\tcp\5command">
+      <UniqueIdentifier>{561aff58-29cc-456b-89a9-d867c28fa123}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\tcp\0tcpbind">
+      <UniqueIdentifier>{97f4bb1e-3822-4f09-8c09-a475745fb848}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="ReadMe.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="stdafx.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="targetver.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Cbase64.h">
+      <Filter>源文件\base64</Filter>
+    </ClInclude>
+    <ClInclude Include="Cui.h">
+      <Filter>源文件\菜单</Filter>
+    </ClInclude>
+    <ClInclude Include="Cmenu.h">
+      <Filter>源文件\菜单</Filter>
+    </ClInclude>
+    <ClInclude Include="Cchat.h">
+      <Filter>源文件\tcp\3chat</Filter>
+    </ClInclude>
+    <ClInclude Include="Ccommand.h">
+      <Filter>源文件\tcp\5command</Filter>
+    </ClInclude>
+    <ClInclude Include="Cfile.h">
+      <Filter>源文件\tcp\4file</Filter>
+    </ClInclude>
+    <ClInclude Include="Clogin.h">
+      <Filter>源文件\tcp\2login</Filter>
+    </ClInclude>
+    <ClInclude Include="Creg.h">
+      <Filter>源文件\tcp\1reg</Filter>
+    </ClInclude>
+    <ClInclude Include="Cmysql.h">
+      <Filter>源文件\MYSQL</Filter>
+    </ClInclude>
+    <ClInclude Include="Ctcp.h">
+      <Filter>源文件\tcp\0tcpbind</Filter>
+    </ClInclude>
+    <ClInclude Include="Data.h">
+      <Filter>源文件</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="stdafx.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="server.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Cbase64.cpp">
+      <Filter>源文件\base64</Filter>
+    </ClCompile>
+    <ClCompile Include="Cmenu.cpp">
+      <Filter>源文件\菜单</Filter>
+    </ClCompile>
+    <ClCompile Include="Cui.cpp">
+      <Filter>源文件\菜单</Filter>
+    </ClCompile>
+    <ClCompile Include="Cchat.cpp">
+      <Filter>源文件\tcp\3chat</Filter>
+    </ClCompile>
+    <ClCompile Include="Cfile.cpp">
+      <Filter>源文件\tcp\4file</Filter>
+    </ClCompile>
+    <ClCompile Include="Clogin.cpp">
+      <Filter>源文件\tcp\2login</Filter>
+    </ClCompile>
+    <ClCompile Include="Ccommand.cpp">
+      <Filter>源文件\tcp\5command</Filter>
+    </ClCompile>
+    <ClCompile Include="Cmysql.cpp">
+      <Filter>源文件\MYSQL</Filter>
+    </ClCompile>
+    <ClCompile Include="Creg.cpp">
+      <Filter>源文件\tcp\1reg</Filter>
+    </ClCompile>
+    <ClCompile Include="Ctcp.cpp">
+      <Filter>源文件\tcp\0tcpbind</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>

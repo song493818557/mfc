@@ -1,0 +1,51 @@
+// MFCDEMO.idl : ActiveX 控件项目的类型库源。
+
+// 此文件将由 MIDL 编译器工具处理以
+// 产生类型库(MFCDEMO.tlb)，该类型库将成为
+// MFCDEMO.ocx.
+
+#include <olectl.h>
+#include <idispids.h>
+
+[ uuid(B4778FC4-8620-40EE-8081-245BF82A22EA), version(1.0),
+  control ]
+library MFCDEMOLib
+{
+	importlib(STDOLE_TLB);
+
+	//  CMFCDEMOCtrl 的主调度接口
+	[ 
+		uuid(62893BF0-5BF6-4B73-97EB-35603474868B)	
+	]
+	dispinterface _DMFCDEMO
+	{
+		properties:
+		methods:
+
+			[id(DISPID_ABOUTBOX)] void AboutBox();
+	};
+
+	//  CMFCDEMOCtrl 的事件调度接口
+
+	[ 
+		uuid(1795342B-9AFC-4A9C-BBAD-2BCB0AC64B20)	
+	]
+	dispinterface _DMFCDEMOEvents
+	{
+		properties:
+			//  事件接口没有任何属性
+
+		methods:
+	};
+
+	//  CMFCDEMOCtrl 的类信息
+	[
+		uuid(C56A0DBB-A6A0-462C-9F32-CB2B96AFB09F)
+	]
+	coclass MFCDEMO
+	{
+		[default] dispinterface _DMFCDEMO;
+		[default, source] dispinterface _DMFCDEMOEvents;
+	};
+
+};

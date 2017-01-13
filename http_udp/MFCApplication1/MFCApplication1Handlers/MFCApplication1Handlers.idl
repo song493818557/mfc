@@ -1,0 +1,52 @@
+// MFCApplication1Handlers.idl : MFCApplication1Handlers的 IDL 源
+//
+
+// 此文件将由 MIDL 工具处理以
+// 产生类型库(MFCApplication1Handlers.tlb)和封送处理代码。
+
+import "oaidl.idl";
+import "ocidl.idl";
+
+[
+	object,
+	uuid(D6E7D3BE-4CF8-4D15-AE4F-1BF90744DD69),
+	pointer_default(unique)
+]
+interface IPreview : IUnknown
+{
+};
+
+[
+	object,
+	uuid(920882BA-4184-4A28-AC44-DA7D3D10A768),
+	pointer_default(unique)
+]
+interface IThumbnail : IUnknown
+{
+};
+
+[
+	uuid(54A07E93-37C5-46CA-A8AD-9ABF4C7772C3),
+	version(1.0),
+]
+library MFCApplication1HandlersLib
+{
+	importlib("stdole2.tlb");
+	[
+		uuid(FE494709-D8C8-43DD-951F-1BEC6389F31F)
+	]
+	coclass Preview
+	{
+		[default] interface IPreviewHandler;
+	};
+	[
+		uuid(A5A66FA6-E71F-4521-BF03-C3A2AA70155E)
+	]
+	coclass Thumbnail
+	{
+		[default] interface IThumbnailProvider;
+	};
+};
+
+import "shobjidl.idl";
+import "thumbcache.idl";

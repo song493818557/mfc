@@ -1,0 +1,76 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="源文件">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="头文件">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="资源文件">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="源文件\0.数据">
+      <UniqueIdentifier>{df247a77-69c2-4f3f-b680-1cce7bee42a2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\1.显示">
+      <UniqueIdentifier>{845f5a89-975f-4a16-a29a-14d29ad4d1d5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\2.操作">
+      <UniqueIdentifier>{04c9680b-8687-4289-b552-bb3874bd5abe}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="ReadMe.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="stdafx.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="targetver.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="data.h">
+      <Filter>源文件\0.数据</Filter>
+    </ClInclude>
+    <ClInclude Include="draw.h">
+      <Filter>源文件\1.显示</Filter>
+    </ClInclude>
+    <ClInclude Include="ctrl.h">
+      <Filter>源文件\2.操作</Filter>
+    </ClInclude>
+    <ClInclude Include="resource.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="stdafx.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="7_04_密码本.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="data.cpp">
+      <Filter>源文件\0.数据</Filter>
+    </ClCompile>
+    <ClCompile Include="draw.cpp">
+      <Filter>源文件\1.显示</Filter>
+    </ClCompile>
+    <ClCompile Include="ctrl.cpp">
+      <Filter>源文件\2.操作</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="7_04_密码本.rc">
+      <Filter>资源文件</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="F:\workPlace\workPlace\4.资源\图标\1.ico">
+      <Filter>资源文件</Filter>
+    </Image>
+  </ItemGroup>
+</Project>

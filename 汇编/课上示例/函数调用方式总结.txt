@@ -1,0 +1,6 @@
+
+调用方式	    堆栈平衡方式						参数传递方式			
+cdcall		函数外部负责平衡(add esp,XX)	参数从右到左依次入栈
+stdcall		函数内部负责平衡（ret XX）		参数从右到左依次入栈
+fastcall	函数内部负责平衡（ret XX）		第一个参数通过ecx,第二个参数传递给edx，剩下的参数从右到左依次入栈
+thiscall	函数内部负责平衡（ret XX）		参数从右到左依次入栈，ecx保存对象的this指针

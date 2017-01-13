@@ -1,0 +1,49 @@
+    //定义一个寻路类（最好定义为类的数据成员）
+    AStar astar;
+
+    //1.设置A*地图空间
+    BYTE map[MAP_HIGH][MAP_WIDTH] = { 0 };  //1不可以通过
+    for (int row = 0; row < MAP_HIGH; row++)
+    {
+        for (int col = 0; col < MAP_WIDTH; col++)
+        {
+            if (m_nMapData[row][col].mapCellType != WALL_NULL &&        // 空道
+                m_nMapData[row][col].mapCellType != WALL_E    &&        // 丛林（隐身）
+                m_nMapData[row][col].mapCellType != WALL_F    &&        // 高速路(加速)
+                m_nMapData[row][col].tankID != m_playTanks[1].tankID    // 地图中写入了自己坦克ID时,也要忽略
+                )         
+            {
+                map[row][col] = 1;          //0可以通过
+            }
+        }
+    }
+    astar.SetSpace(MAP_WIDTH, MAP_HIGH, *map);
+    //2.设置起始点和目标点
+    astar.SetStartAndEnd({ (short)m_playTanks[1].posX,(short)m_playTanks[1].posY },  //起点
+                         { (short)m_playTanks[0].posX,(short)m_playTanks[0].posY }); //终点
+
+    //3.获取路径
+    vector<COORD> path;
+    astar.GetPath(path);
+
+    //4.根据获取的路径移动坦克
+    if (path.empty())
+    {
+        return;
+    }
+
+    if (path[0].Y - m_playTanks[1].posY == -1) {		//向上移动
+
+        moveTank(UP, m_playTanks[1]);
+    }
+    if (path[0].Y - m_playTanks[1].posY == 1)  {		//向下移动		
+        moveTank(DOWN, m_playTanks[1]);
+    }
+    if (path[0].X - m_playTanks[1].posX == -1) {		//向左移动		
+
+        moveTank(LEFT, m_playTanks[1]);
+    }
+    if (path[0].X - m_playTanks[1].posX == 1)  {		//向右移动		
+
+        moveTank(RIGHT, m_playTanks[1]);
+    }
