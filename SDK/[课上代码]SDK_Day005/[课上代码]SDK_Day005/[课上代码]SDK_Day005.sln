@@ -1,0 +1,44 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.40629.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "1_获取所有驱动器", "1_获取所有驱动器\1_获取所有驱动器.vcxproj", "{F601AFD1-427C-46B2-808C-E83C09CEC662}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "2_磁盘查看器", "2_磁盘查看器\2_磁盘查看器.vcxproj", "{02A0D475-0216-42BB-AF41-B078BBB2B239}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "3_遍历文件", "3_遍历文件\3_遍历文件.vcxproj", "{55E5BB93-7E1A-4378-AEAE-98F809B4BE3A}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "4_文件操作函数", "4_文件操作函数\4_文件操作函数.vcxproj", "{69A9B889-F322-4078-86A4-74A0324A3849}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Win32 = Debug|Win32
+		Release|Win32 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{FA810D05-A2A1-4ED8-86BF-E2C5615DA686}.Debug|Win32.ActiveCfg = Debug|Win32
+		{FA810D05-A2A1-4ED8-86BF-E2C5615DA686}.Debug|Win32.Build.0 = Debug|Win32
+		{FA810D05-A2A1-4ED8-86BF-E2C5615DA686}.Release|Win32.ActiveCfg = Release|Win32
+		{FA810D05-A2A1-4ED8-86BF-E2C5615DA686}.Release|Win32.Build.0 = Release|Win32
+		{F601AFD1-427C-46B2-808C-E83C09CEC662}.Debug|Win32.ActiveCfg = Debug|Win32
+		{F601AFD1-427C-46B2-808C-E83C09CEC662}.Debug|Win32.Build.0 = Debug|Win32
+		{F601AFD1-427C-46B2-808C-E83C09CEC662}.Release|Win32.ActiveCfg = Release|Win32
+		{F601AFD1-427C-46B2-808C-E83C09CEC662}.Release|Win32.Build.0 = Release|Win32
+		{02A0D475-0216-42BB-AF41-B078BBB2B239}.Debug|Win32.ActiveCfg = Debug|Win32
+		{02A0D475-0216-42BB-AF41-B078BBB2B239}.Debug|Win32.Build.0 = Debug|Win32
+		{02A0D475-0216-42BB-AF41-B078BBB2B239}.Release|Win32.ActiveCfg = Release|Win32
+		{02A0D475-0216-42BB-AF41-B078BBB2B239}.Release|Win32.Build.0 = Release|Win32
+		{55E5BB93-7E1A-4378-AEAE-98F809B4BE3A}.Debug|Win32.ActiveCfg = Debug|Win32
+		{55E5BB93-7E1A-4378-AEAE-98F809B4BE3A}.Debug|Win32.Build.0 = Debug|Win32
+		{55E5BB93-7E1A-4378-AEAE-98F809B4BE3A}.Release|Win32.ActiveCfg = Release|Win32
+		{55E5BB93-7E1A-4378-AEAE-98F809B4BE3A}.Release|Win32.Build.0 = Release|Win32
+		{69A9B889-F322-4078-86A4-74A0324A3849}.Debug|Win32.ActiveCfg = Debug|Win32
+		{69A9B889-F322-4078-86A4-74A0324A3849}.Debug|Win32.Build.0 = Debug|Win32
+		{69A9B889-F322-4078-86A4-74A0324A3849}.Release|Win32.ActiveCfg = Release|Win32
+		{69A9B889-F322-4078-86A4-74A0324A3849}.Release|Win32.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

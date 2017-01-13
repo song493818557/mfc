@@ -1,0 +1,40 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.40629.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "01_劫持回调函数", "01_劫持回调函数\01_劫持回调函数.vcxproj", "{31259F48-0408-46D6-A1E1-72B0438BE701}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "02_ListView控件的使用", "02_ListView控件的使用\02_ListView控件的使用.vcxproj", "{C9870C48-ED09-44E2-BBF7-D38C5FA970D9}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "03_TreeView控件的使用", "03_TreeView控件的使用\03_TreeView控件的使用.vcxproj", "{94FE364D-F89E-4E30-AB37-9816DFF34AA5}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "3-封装ListView和TreeView控件的使用函数", "3-封装ListView和TreeView控件的使用函数\3-封装ListView和TreeView控件的使用函数.vcxproj", "{0A4067C2-6901-4795-BB77-A01900E22162}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Win32 = Debug|Win32
+		Release|Win32 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{31259F48-0408-46D6-A1E1-72B0438BE701}.Debug|Win32.ActiveCfg = Debug|Win32
+		{31259F48-0408-46D6-A1E1-72B0438BE701}.Debug|Win32.Build.0 = Debug|Win32
+		{31259F48-0408-46D6-A1E1-72B0438BE701}.Release|Win32.ActiveCfg = Release|Win32
+		{31259F48-0408-46D6-A1E1-72B0438BE701}.Release|Win32.Build.0 = Release|Win32
+		{C9870C48-ED09-44E2-BBF7-D38C5FA970D9}.Debug|Win32.ActiveCfg = Debug|Win32
+		{C9870C48-ED09-44E2-BBF7-D38C5FA970D9}.Debug|Win32.Build.0 = Debug|Win32
+		{C9870C48-ED09-44E2-BBF7-D38C5FA970D9}.Release|Win32.ActiveCfg = Release|Win32
+		{C9870C48-ED09-44E2-BBF7-D38C5FA970D9}.Release|Win32.Build.0 = Release|Win32
+		{94FE364D-F89E-4E30-AB37-9816DFF34AA5}.Debug|Win32.ActiveCfg = Debug|Win32
+		{94FE364D-F89E-4E30-AB37-9816DFF34AA5}.Debug|Win32.Build.0 = Debug|Win32
+		{94FE364D-F89E-4E30-AB37-9816DFF34AA5}.Release|Win32.ActiveCfg = Release|Win32
+		{94FE364D-F89E-4E30-AB37-9816DFF34AA5}.Release|Win32.Build.0 = Release|Win32
+		{0A4067C2-6901-4795-BB77-A01900E22162}.Debug|Win32.ActiveCfg = Debug|Win32
+		{0A4067C2-6901-4795-BB77-A01900E22162}.Debug|Win32.Build.0 = Debug|Win32
+		{0A4067C2-6901-4795-BB77-A01900E22162}.Release|Win32.ActiveCfg = Release|Win32
+		{0A4067C2-6901-4795-BB77-A01900E22162}.Release|Win32.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

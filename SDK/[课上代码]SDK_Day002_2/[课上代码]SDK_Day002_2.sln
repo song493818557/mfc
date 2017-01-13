@@ -1,0 +1,40 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.40629.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "系统对话框的使用示例", "[课上代码]SDK_Day002_2\[课上代码]SDK_Day002_2.vcxproj", "{43292D19-408E-4A93-BB1A-6C12DE28E086}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "对话框_模态对话框", "对话框_模态对话框\对话框_模态对话框.vcxproj", "{A41AB28D-2560-4D8F-865E-DB130E0222C3}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "对话框_非模态对话框", "对话框_非模态对话框\对话框_非模态对话框.vcxproj", "{F8084829-897D-4A11-8DDC-0B127E362301}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "控件的使用", "控件的使用\控件的使用.vcxproj", "{D2A8A1CB-0412-4983-8773-0ECA2083E5E7}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Win32 = Debug|Win32
+		Release|Win32 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{43292D19-408E-4A93-BB1A-6C12DE28E086}.Debug|Win32.ActiveCfg = Debug|Win32
+		{43292D19-408E-4A93-BB1A-6C12DE28E086}.Debug|Win32.Build.0 = Debug|Win32
+		{43292D19-408E-4A93-BB1A-6C12DE28E086}.Release|Win32.ActiveCfg = Release|Win32
+		{43292D19-408E-4A93-BB1A-6C12DE28E086}.Release|Win32.Build.0 = Release|Win32
+		{A41AB28D-2560-4D8F-865E-DB130E0222C3}.Debug|Win32.ActiveCfg = Debug|Win32
+		{A41AB28D-2560-4D8F-865E-DB130E0222C3}.Debug|Win32.Build.0 = Debug|Win32
+		{A41AB28D-2560-4D8F-865E-DB130E0222C3}.Release|Win32.ActiveCfg = Release|Win32
+		{A41AB28D-2560-4D8F-865E-DB130E0222C3}.Release|Win32.Build.0 = Release|Win32
+		{F8084829-897D-4A11-8DDC-0B127E362301}.Debug|Win32.ActiveCfg = Debug|Win32
+		{F8084829-897D-4A11-8DDC-0B127E362301}.Debug|Win32.Build.0 = Debug|Win32
+		{F8084829-897D-4A11-8DDC-0B127E362301}.Release|Win32.ActiveCfg = Release|Win32
+		{F8084829-897D-4A11-8DDC-0B127E362301}.Release|Win32.Build.0 = Release|Win32
+		{D2A8A1CB-0412-4983-8773-0ECA2083E5E7}.Debug|Win32.ActiveCfg = Debug|Win32
+		{D2A8A1CB-0412-4983-8773-0ECA2083E5E7}.Debug|Win32.Build.0 = Debug|Win32
+		{D2A8A1CB-0412-4983-8773-0ECA2083E5E7}.Release|Win32.ActiveCfg = Release|Win32
+		{D2A8A1CB-0412-4983-8773-0ECA2083E5E7}.Release|Win32.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

@@ -1,0 +1,4 @@
+LIBRARY defexport	; 声明导出的DLL名
+EXPORTS  ; 声明要导出的函数
+fun		@ 1  ; 说明函数名对应的序号
+fun2	@ 2 
